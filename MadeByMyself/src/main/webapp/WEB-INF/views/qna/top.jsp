@@ -18,11 +18,11 @@ if(userid == null) {%> --%>
 <br>
 <h1>Made By Myself</h1>
 <div style="text-align: center;">
-<ul>
-  <li><a href="/qna/index">HOME</a></li>  
-  <li><a href="/qna/workbooklist  ">문제집 목록</a><li>
-  <li><a href="/qna/Go_SolveContent">문제집 풀기</a></li>
-  <li><a href="/qna/Go_RankContent">문제집 순위</a><li>
+<ul class="topul">
+  <li class="topli"><a href="/qna/index">HOME</a></li>  
+  <li class="topli"><a href="/qna/workbooklist  ">문제집 목록</a><li>
+  <li class="topli"><a href="/qna/Go_SolveContent">문제집 풀기</a></li>
+  <li class="topli"><a href="/qna/Go_RankContent">문제집 순위</a><li>
 </ul>
 </div>
 </body>

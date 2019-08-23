@@ -11,7 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="/resources/style.css">
+<!-- <link rel="stylesheet" href="/resources/style.css"> -->
 
 </head>
 <body>
@@ -36,10 +36,18 @@
           <button type="button" class="close" data-dismiss="modal">×</button>
         </div>
         
+         
         <!-- Modal body -->
+        <%int ok = 0; %>
         <div class="modal-body">
-            <input type="text" class="form-control" id="workbook" name="workbook" value="${workbook_list.workbook}">
-        </div>
+						 <div class="btn-group btn-group-lg">
+							<button type="button" class="btn btn-info"><%ok=0;%>객관식</button>
+							<button type="button" class="btn btn-info"><%ok=1;%>주관식</button>
+						</div> 
+						<ul>
+						 <li>zzz</li>
+						</ul>
+					</div>
         
         <!-- Modal footer -->
         <div class="modal-footer">

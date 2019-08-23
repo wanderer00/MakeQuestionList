@@ -10,7 +10,7 @@ h1{
 	text-align: center;
 }
 
-ul {
+.topul {
     list-style-type: none;
     overflow: hidden;
     list-style: none;
@@ -22,7 +22,7 @@ ul {
 	width:100%;
 }
 
-li {
+.topli {
     float: center;
     font-size: 33px; 
     display: inline-block;
@@ -31,7 +31,7 @@ li {
 }
 
 
-li a{
+.topli a{
     display: inline-block;
     color:snow;
     text-align: center;
@@ -40,7 +40,7 @@ li a{
 
 }
 
-.card {
+.bookcard {
 /* 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); */
 	text-align: center;
 	width: 25%;

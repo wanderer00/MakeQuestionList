@@ -53,7 +53,7 @@
 			<c:forEach items="${booklist}" var="booklist">
 			 <% if(i%5 == 0) { %> <tr> <% i = 1; } %> 
 				<td><a href="/qna/question?booknumber=<c:out value='${booklist.booknumber}'/>">
-						<div class="card">
+						<div class="bookcard">
 							<img src="/resources/img/folder.png" width="150px">
 							<h3>
 								<c:out value="${booklist.workbook}" />
